@@ -15,6 +15,7 @@ Relasi yang digunakan adalah 1 pelanggan dapat memiliki beberapa pesanan.
 2. **Membuat Tabel dan Data Tabel**
 **Tabel dan Data Pelanggan**
 <img width="785" height="310" alt="Screenshot 2026-03-05 140114" src="https://github.com/user-attachments/assets/17e88961-376d-4bd5-8dc0-30c9592397c2" />
+
 Tabel pelanggan digunakan untuk menyimpan data pelanggan.
 
 Struktur tabel :
