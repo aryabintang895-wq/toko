@@ -53,9 +53,12 @@ Struktur Tabel:
 
 Query:
 
-SELECT pelanggan.nama, pesanan.produk
+SELECT pelanggan.nama,   pesanan.produk
+
 FROM pelanggan
+
 INNER JOIN pesanan
+
 ON pelanggan.id_pelanggan = pesanan.id_pelanggan;
 
 Hasil:
