@@ -1,1 +1,2 @@
 # toko
+1. MEMBUAT DATABASE
