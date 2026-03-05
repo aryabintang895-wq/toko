@@ -1,4 +1,10 @@
-# toko
+# DATABASE TOKO
+Project ini adalah contoh penggunaan **JOIN pada MariaDB/MySQL** untuk menggabungkan data dari dua tabel:
+
+-pelanggan
+-pesanan
+
+Relasi yang digunakan adalah 1 pelanggan dapat memiliki beberapa pesanan.
 1. **Membuat Database**
  <img width="597" height="145" alt="Screenshot 2026-03-05 134946" src="https://github.com/user-attachments/assets/807b12b3-8995-4315-8762-f798b9638c55" />
  
