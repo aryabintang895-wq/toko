@@ -18,12 +18,21 @@ Relasi yang digunakan adalah 1 pelanggan dapat memiliki beberapa pesanan.
 
 Tabel pelanggan digunakan untuk menyimpan data pelanggan.
 
-Struktur tabel :
+Struktur tabel:
 
 | Kolom        | Tipe Data | Keterangan     |
 | ------------ | --------- | -------------- |
 | id_pelanggan | INT       | Primary key    |
 | nama         | VARCHAR   | Nama pelanggan |
+
+Contoh Data:
+
+| id_pelanggan | nama |
+| ------------ | ---- |
+| 1            | andi |
+| 2            | budi |
+| 3            | sari |
+
 
 
 **Tabel dan Data Pesanan**
