@@ -69,6 +69,56 @@ Hasil:
 | budi | smartphone |
 | andi | headset    |
 
+INNER JOIN hanya menampilkan data yang cocok di kedua tabel.
+
+4. **LEFT JOIN**
+<img width="948" height="287" alt="Screenshot 2026-03-05 142056" src="https://github.com/user-attachments/assets/ab83ffdb-939b-48dd-ab0d-97ed4bda1e0b" />
+
+Query:
+SELECT pelanggan.nama,  pesanan.produk
+
+FROM pelanggan
+
+LEFT JOIN pesanan
+
+ON pelanggan.id_pelanggan = pesanan.id_pelanggan;
+
+Hasil:
+
+| nama | produk     |
+| ---- | ---------- |
+| andi | laptop     |
+| budi | smartphone |
+| andi | headset    |
+| sari | NULL       |
+
+LEFT JOIN menampilkan semua data dari tabel kiri (pelanggan).
+
+Jika pelanggan tidak memiliki pesanan, maka produk akan bernilai NULL.
+
+5. **Right Join**
+<img width="954" height="259" alt="Screenshot 2026-03-05 142112" src="https://github.com/user-attachments/assets/b4f8d588-7d62-4752-868e-a90231faed75" />
+
+Query:
+
+SELECT pelanggan.nama,  pesanan.produk
+
+FROM pelanggan
+
+RIGHT JOIN pesanan
+
+ON pelanggan.id_pelanggan = pesanan.id_pelanggan;
+
+Hasil:
+
+| nama | produk     |
+| ---- | ---------- |
+| andi | laptop     |
+| budi | smartphone |
+| andi | headset    |
+
+RIGHT JOIN menampilkan semua data dari tabel kanan (pesanan).
+
 
 
 
