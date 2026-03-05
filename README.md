@@ -38,4 +38,34 @@ Contoh Data:
 **Tabel dan Data Pesanan**
 <img width="870" height="355" alt="Screenshot 2026-03-05 140303" src="https://github.com/user-attachments/assets/3be655a4-17e6-4b2a-b2f2-844772d0e6db" />
 
+Tabel Pesanan digunakan untuk menyimpan data produk yang dipesan pelanggan
+
+Struktur Tabel:
+
+| Kolom        | Tipe Data | Keterangan   |
+| ------------ | --------- | ------------ |
+| id_pesanan   | INT       | Primary key  |
+| id_pelanggan | INT       | ID pelanggan |
+| produk       | VARCHAR   | Nama produk  |
+
+3. **Inner Join**
+<img width="939" height="254" alt="Screenshot 2026-03-05 144134" src="https://github.com/user-attachments/assets/47b09e7a-0e38-4cac-9621-9bb359369b70" />
+
+Query:
+
+SELECT pelanggan.nama, pesanan.produk
+FROM pelanggan
+INNER JOIN pesanan
+ON pelanggan.id_pelanggan = pesanan.id_pelanggan;
+
+Hasil:
+
+| nama | produk     |
+| ---- | ---------- |
+| andi | laptop     |
+| budi | smartphone |
+| andi | headset    |
+
+
+
 
